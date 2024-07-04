@@ -1,0 +1,226 @@
+/* Reset default styles and set base font */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    position: -webkit-sticky; /* Safari */
+    position: sticky; /* Sticky positioning */
+    top: 0;
+    background-color: #fafafa; /* Light background color */
+    backdrop-filter: blur(50px);
+    border-bottom: 3px solid #0a0000; /* Dark border bottom */
+    z-index: 9999;
+}
+
+.navbar .navbar-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; /* Adjust padding as needed */
+    max-width: 1200px; /* Adjust maximum width */
+    margin: 0 auto; /* Center horizontally */
+}
+
+.navbar .brand {
+    height: 50px; /* Adjust height as needed */
+    width: auto; /* Auto width to maintain aspect ratio */
+}
+
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    margin-right: 10px; /* Adjust spacing between items */
+}
+
+.navbar ul li a {
+    color: #0a0000; /* Dark text color */
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    color: #53c954; /* Text color on hover */
+}
+
+/* Dropdown menu */
+.navbar .drop-nav ul {
+    display: none; /* Hide dropdown by default */
+}
+
+/* Container for sections */
+.section-container {
+    max-width: 1200px; /* Maximum width for sections */
+    margin: 20px auto; /* Center and provide space around sections */
+    padding: 0 20px; /* Padding inside the container */
+}
+
+/* General section styles */
+.section {
+    display: inline-block; /* Display sections inline */
+    grid-template-columns: 1fr 1fr; /* Two columns layout */
+    gap: 20px; /* Gap between items */
+}
+
+/* Container for images and text */
+.image-text-container {
+    display: inline-block; /* Display inline */
+    align-items: center; /* Center items vertically */
+    gap: 20px; /* Gap between items */
+}
+
+.image-text-container img {
+    max-width: 100%; /* Ensure images don't exceed container width */
+}
+
+/* Container styles */
+.container {
+    max-width: 600px; /* Maximum width for content */
+    margin: 20px auto; /* Center and provide space around container */
+}
+
+/* Slideshow styles */
+.image-slide-show {
+    display: flex; /* Display as flexbox */
+    overflow-x: auto; /* Enable horizontal scrolling */
+    gap: 10px; /* Gap between images */
+}
+
+.image-slide-show img {
+    max-width: 100%; /* Ensure images don't exceed container width */
+}
+
+/* Grid layout for company information */
+.company {
+    display: grid; /* Display as grid */
+    grid-template-columns: auto 1fr; /* Two columns layout */
+    gap: 10px; /* Gap between items */
+}
+
+/* Styles for management team member */
+.management-team-member {
+    max-width: 600px; /* Maximum width for content */
+    margin: 20px auto; /* Center and provide space around content */
+}
+
+/* Vision and mission section styles */
+.vision-mission {
+    max-width: 600px; /* Maximum width for content */
+    margin: 20px auto; /* Center and provide space around content */
+}
+
+/* Production center image container styles */
+.image-container {
+    max-width: 600px; /* Maximum width for content */
+    margin: 20px auto; /* Center and provide space around content */
+}
+
+/* Grid layout for products */
+.products {
+    display: grid; /* Display as grid */
+    grid-template-columns: repeat(
+        auto-fit,
+        minmax(200px, 1fr)
+    ); /* Responsive grid layout */
+    gap: 20px; /* Gap between items */
+}
+
+.product {
+    text-align: center; /* Center text */
+}
+
+/* Grid layout for collaborations */
+.collaborations {
+    display: grid; /* Display as grid */
+    grid-template-columns: repeat(
+        auto-fit,
+        minmax(200px, 1fr)
+    ); /* Responsive grid layout */
+    gap: 20px; /* Gap between items */
+}
+
+.collaboration {
+    text-align: center; /* Center text */
+}
+
+/* Contact form styles */
+.contact-form {
+    max-width: 600px; /* Maximum width for form */
+    margin: 20px auto; /* Center and provide space around form */
+}
+
+.form-group {
+    margin-bottom: 20px; /* Bottom margin for form group */
+}
+
+.form-group label {
+    display: block; /* Display as block */
+    margin-bottom: 5px; /* Bottom margin for label */
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%; /* Full width */
+    padding: 10px; /* Padding for input elements */
+    font-size: 16px; /* Font size */
+    border: 1px solid #ccc; /* Border color */
+    border-radius: 4px; /* Border radius */
+}
+
+.form-group textarea {
+    resize: vertical; /* Allow vertical resizing for textarea */
+}
+
+/* Button styles */
+button {
+    background-color: #f39c12; /* Button background color */
+    color: #fff; /* Text color */
+    border: none; /* No border */
+    padding: 10px 20px; /* Padding */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Cursor style */
+    border-radius: 4px; /* Border radius */
+}
+
+button:hover {
+    background-color: #e67e22; /* Button background color on hover */
+}
+
+/* Header styles */
+.header {
+    text-align: center; /* Center text */
+}
+
+/* Subheader styles */
+.subheader {
+    margin-bottom: 10px; /* Bottom margin for subheader */
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+    .section {
+        grid-template-columns: 1fr; /* Single column layout */
+    }
+
+    .image-text-container {
+        flex-direction: column; /* Stack images and text vertically */
+        align-items: flex-start; /* Align items to the start */
+    }
+
+    /* Padding adjustment for smaller screens */
+    .company,
+    .management-team-member,
+    .vision-mission,
+    .image-container,
+    .products,
+    .collaborations,
+    .contact-form {
+        padding: 0 20px; /* Reduced padding */
+    }
+}
