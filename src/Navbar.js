@@ -28,7 +28,10 @@ function Navbar() {
             <a href="#Our-Production-Center">Our Production Center</a>
           </li>
           <li>
-            <a href="#Our-Services-and-Products">Our Services and Products</a>
+            <a href="#Our-Products">Our Products</a>
+          </li>
+          <li>
+            <a href="#Our-Services">Our Services</a>
           </li>
           <li>
             <a href="#Our-Collaborations">Our Collaborations</a>

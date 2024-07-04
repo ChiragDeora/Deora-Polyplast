@@ -8,6 +8,7 @@ import SectionProductionCenter from "./SectionProductionCenter";
 import SectionProducts from "./SectionProducts";
 import SectionCollaborations from "./SectionCollaborations";
 import SectionContact from "./SectionContact";
+import SectionServices from "./SectionServices";
 import "./App.css";
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
         <SectionVisionMission />
         <SectionProductionCenter />
         <SectionProducts />
+        <SectionServices />
         <SectionCollaborations />
         <SectionContact />
       </main>

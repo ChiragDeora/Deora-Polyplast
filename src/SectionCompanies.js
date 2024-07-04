@@ -1,7 +1,6 @@
 import React from "react";
 import group2 from "./images/group-2.png";
 import group3 from "./images/group-3.png";
-import group from "./images/group.png";
 
 function SectionCompanies() {
   return (
@@ -23,11 +22,6 @@ function SectionCompanies() {
           imgSrc={group3}
           title="Spares & Components Co."
           description="Spares and Components Co (SPCO) is India's leading distributor of top bearing brands worldwide like NTN, Lobo, SKF etc. Our, pan India presence enables us to serve prominent customers like Aditya Birla, JSW, IOCL, and more belonging to various industries like steel, automobile and refinery etc."
-        />
-        <CompanyInfo
-          imgSrc={group}
-          title="Deora Agro Industries"
-          description="As part of their green initiative by the group, Deora Agro Industries (DAI) has embraced innovative practices such as hydroponics and organic farming. Through these sustainable methods, DAI cultivates a range of organic products, with Hydrohaldi being their flagship offering. DAI is dedicated to promoting environmentally friendly practices in agriculture."
         />
         <CompanyInfo
           imgSrc={group2}
