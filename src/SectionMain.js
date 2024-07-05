@@ -9,30 +9,35 @@ function SectionMain() {
         <img src={homepage} alt="Homepage" />
         <img src={homepage} alt="Homepage" />
       </div>
-      <div className="section-container">
-        <div className="section">
-          <div className="text">
-            <h2>About Us</h2>
-            <p className="text">
-              We design premium packaging solutions primarily catering to the
-              food industry. With our strong focus on innovation and quality, we
-              deliver customized solutions for our customers in various
-              industries. Our dedicated team and extensive experience enable us
-              to meet unique requirements and exceed expectations.
-            </p>
-          </div>
-          <div className="text">
-            <h2>Our History</h2>
+      <div className="about-us-container">
+        <div className="about-us text">
+          <h2>About Us</h2>
+          <p>
+            At DPPL, we design premium packaging solutions primarily serving the
+            food industry. With a strong focus on innovation and quality, we
+            deliver customized solutions to our customers across various
+            sectors. We understand that packaging plays a crucial role in
+            preserving product integrity and enhancing brand value. Our
+            dedicated team works diligently to exceed your expectations,
+            providing exceptional products tailored to your unique requirements.
+          </p>
+        </div>
+        <div className="technology-mission-container">
+          <div className="technology text">
+            <h2>Our Technology</h2>
             <p>
-              Founded in 1990, our company has grown to become a leading
-              provider of packaging solutions. We have continually invested in
-              the latest technologies and have built a team of highly skilled
-              professionals dedicated to delivering excellence.
+              We leverage cutting-edge technologies such as Injection Moulding
+              and In-Mould Labeling (IML) to enhance the visual appeal and
+              branding opportunities of our packaging, giving your products a
+              competitive edge in the market. Additionally, sustainability is at
+              the core of our values. We prioritize eco-friendly manufacturing
+              processes and responsibly sourced materials to reduce our
+              environmental footprint.
             </p>
           </div>
-          <div className="text">
+          <div className="mission text">
             <h2>Our Mission</h2>
-            <p className="text">
+            <p>
               Our mission is to provide innovative and sustainable packaging
               solutions that meet the evolving needs of our customers. We are
               committed to quality, efficiency, and environmental responsibility

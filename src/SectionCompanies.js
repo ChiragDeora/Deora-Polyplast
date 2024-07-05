@@ -17,7 +17,7 @@ function SectionCompanies() {
           group of companies:
         </p>
       </div>
-      <div className="container groupsofcompanies">
+      <div className="company-container">
         <CompanyInfo
           imgSrc={group3}
           title="Spares & Components Co."
@@ -37,10 +37,8 @@ function CompanyInfo({ imgSrc, title, description }) {
   return (
     <div className="company">
       <img src={imgSrc} alt={title} />
-      <div className="container">
+      <div className="company-details">
         <h3 className="subheader">{title}</h3>
-      </div>
-      <div className="container">
         <p>{description}</p>
       </div>
     </div>
